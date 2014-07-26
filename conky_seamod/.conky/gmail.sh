@@ -11,5 +11,5 @@ https://${gmail_login}:${gmail_password}@mail.google.com/mail/feed/atom \
 if [ -z "$dane" ]; then
 echo "No network connection"
 else
-echo "you've got $dane e-mail(s)"
+echo "$dane new e-mail(s)"
 fi
